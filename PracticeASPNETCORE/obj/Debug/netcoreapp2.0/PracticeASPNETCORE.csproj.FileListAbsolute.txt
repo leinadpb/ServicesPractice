@@ -1,0 +1,11 @@
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\bin\Debug\netcoreapp2.0\PracticeASPNETCORE.deps.json
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\bin\Debug\netcoreapp2.0\PracticeASPNETCORE.runtimeconfig.json
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\bin\Debug\netcoreapp2.0\PracticeASPNETCORE.runtimeconfig.dev.json
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\bin\Debug\netcoreapp2.0\PracticeASPNETCORE.dll
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\bin\Debug\netcoreapp2.0\PracticeASPNETCORE.pdb
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.csprojAssemblyReference.cache
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.csproj.CoreCompileInputs.cache
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.AssemblyInfoInputs.cache
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.AssemblyInfo.cs
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.dll
+C:\Users\LEINAD\source\repos\PracticeASPNETCORE\PracticeASPNETCORE\obj\Debug\netcoreapp2.0\PracticeASPNETCORE.pdb

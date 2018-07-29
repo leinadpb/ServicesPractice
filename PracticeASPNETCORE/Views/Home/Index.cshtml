@@ -1,0 +1,77 @@
+﻿@model HomeViewModel;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<br />
+<br />
+<div class="container">
+    <div>Select the number of Students to Show:</div>
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <input name="top" class="form-control" type="number" min="0" />
+        <button class="btn btn-primary btn-block">Execute Search!</button>
+    </form>
+</div>
+<br />
+@if (ViewBag.Search)
+{
+    
+<div class="container">
+    @if (ViewBag.LessThanRequested == true)
+    {
+        <div class="alert alert-warning">Showing less values than requested.</div>
+    }
+    <div class="alert alert-info">
+        Showing: @ViewBag.Count results;
+    </div>
+    <div class="table">
+        <table class="table table-bordered table-responsive">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Registered Date
+                </th>
+                <th>
+                    Registered Computer
+                </th>
+                <th>
+                    Has Filled Survey?
+                </th>
+            </tr>
+            @foreach (var s in Model.Students)
+            {
+                <tr>
+                    <td>
+                        @s.LoginName
+                    </td>
+                    <td>
+                        @s.DisplayName
+                    </td>
+                    <td>
+                        @s.RegisteredDate
+                    </td>
+                    <td>
+                        @s.ComputerName
+                    </td>
+                    <td>
+                        @if (s.HasFilledSurvey)
+                        {
+                            <div>YES</div>
+                        }
+                        else
+                        {
+                            <div>NO</div>
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+}
